@@ -14,3 +14,12 @@ print(lista[3])
 conjunto = {"john f ", "martinez ", True, 1.80}
 print(conjunto)
 
+#creando un diccionario(dict), la estryctura es keu:value y se separa con comas.
+diccionario = { 
+    'nombre': "john nieto",
+    'estudiando': "ON",
+    'programando': "True",
+    'dato duplicado': "john nieto",
+    'altura': 1.80
+    }
+print(diccionario['altura'])

@@ -1,4 +1,3 @@
-a = 5
-b = 3
-c = a * b 
-print(c)
+nombre = 5
+bienvenido = f"hola  {nombre}  como va la causa?"  
+print (bienvenido)

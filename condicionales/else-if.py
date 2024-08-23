@@ -1,13 +1,14 @@
-ingreso_mensual = 100000
+ingreso_mensual = 81000
 gasto_mensual = 80000
 
 if ingreso_mensual >10000:
-    print("esta }bien en cualquier lado")
     if ingreso_mensual - gasto_mensual < 0:
         print("esta en deficit")
-    elif ingreso_mensual -gasto_mensual >3000:
-        print("vamos bien")
-    else:("esta gastando demasiado")    
+    elif ingreso_mensual - gasto_mensual > 3000:
+        print("esta gastando lo permitido")
+    else:
+        print("esta gastando demasiado")
+        
     
     
 elif ingreso_mensual >1000:

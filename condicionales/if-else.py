@@ -27,4 +27,13 @@ else:
     notas_aprobadas =3
     print("pasó raspando")
     
-    EJERCICIO 4"""
+    EJERCICIO 4
+perros_felices = True
+
+comida_perro =  not False
+agua_perro = True
+cama_perro =  not False
+if perros_felices == comida_perro & perros_felices == agua_perro & perros_felices == cama_perro:
+    print("los perros son felices")
+else:
+    print("a los perros les falta algo, favor revisar")"""

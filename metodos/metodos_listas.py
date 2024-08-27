@@ -13,4 +13,9 @@ lista.insert(2, "jelou, perra ")
 #agregando varios elementos a la lista
 lista.extend([True, 5050])
 
+#eliminando un elemento de la lista por su indice, con -1 se elimina el ultimo elemento de la lista, -2 para eliminar el penultimo y asi sucesivaente
+lista.pop(-1)
+
+#removiendo un elemento de la lista por su valor.
+
 print(lista)

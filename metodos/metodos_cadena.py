@@ -29,4 +29,12 @@ contar_coincidencia = cadena1.count("e")
 
 #la funion len nos cuenta la cantidad de caracteres en una cadena
 contar_caracteres = len(cadena1)
-print(contar_caracteres)
+
+
+#verifica si la cadena empieza con el caracter ingresado, si es verdad, devuelve True 
+empieza_con = cadena1.startswith("m")
+
+#verifica si la cadena termina con  el caracter ingresado, si es verdad devuelve true
+termina_con = cadena1.endswith("g")
+
+print(termina_con)

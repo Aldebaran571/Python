@@ -1,4 +1,4 @@
-cadena1 = "mereuetengue"
+cadena1 = "merequetengue"
 cadena2 = "MODO BEstiA"
 #CONVIERTE A MAYUSCULAS
 mayus = cadena1.upper()#dato.nombredelmetodo()
@@ -37,4 +37,10 @@ empieza_con = cadena1.startswith("m")
 #verifica si la cadena termina con  el caracter ingresado, si es verdad devuelve true
 termina_con = cadena1.endswith("g")
 
-print(termina_con)
+#reemplaza una cadena por otra cadena
+cadena_nueva = cadena1.replace ("merequetengue", "maraquatanga")
+
+
+#separa cadenas con la cadena que le indiquemos
+cadena_separada = cadena1.split("e")
+print(cadena_separada)

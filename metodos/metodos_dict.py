@@ -3,5 +3,5 @@ diccionario = {#tambien sirven para iterar
     "apellido" : 'nieto',
     "edad" : 38
 }
-claves = diccionario.keys()
+claves = diccionario.get("nombre")
 print(claves)

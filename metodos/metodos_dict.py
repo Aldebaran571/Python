@@ -13,4 +13,7 @@ print("que se dice colega?")
 #eliminando todos los datos del diccionario
 #diccionario.clear()
 diccionario.pop("nombre")
-print(claves)
+
+#obteniendo un elemento de un dict_item
+diccionario_iterable = diccionario.items()
+print(diccionario_iterable)

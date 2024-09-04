@@ -19,6 +19,12 @@ def obtener_compañeros(cantidad_de_compañeros):
     #compañeros [x]devuelve la tupla con nombre{nombne, edad }y despues accedemos al nombre para acceder al nombre y despues al profesor
     asistente = compañeros [0][0]
     profesor = compañeros[-1][0]
+    
+    #retornamos una tupla
     return asistente, profesor
+
+#desempaquetamos lo que nos retorna la funcion 
 asistente, profesor =obtener_compañeros(5)
+
+#mostrando el resultado
 print(f' el profesor es:{profesor}, y sus asistente es: {asistente}')

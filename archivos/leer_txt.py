@@ -1,3 +1,4 @@
+#usando "open" para abrir un archivo con codificacion universal 
 archivo = open("archivos\\texto_prueba.txt", encoding="UTF-8")
 
 #leer el archivo completo
@@ -13,4 +14,4 @@ linea =archivo.readline()
 archivo.close()
 
 
-print(linea)
+print(archivo)

@@ -18,4 +18,4 @@ df = df.dropna()
 df =df.drop_duplicates()
 
 #creando un CSV con el dataframe resultante (limpio)
-df.to_csv("archivos\\prueba2.csv\\datos_limpios.csv")
+#df.to_csv("archivos\\prueba2.csv\\datos_limpios.csv")

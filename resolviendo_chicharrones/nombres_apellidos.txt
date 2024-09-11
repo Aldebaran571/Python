@@ -1,0 +1,14 @@
+los datos son:
+
+Nombre: john 
+Apellido: martinez
+-----------------
+Nombre: fredy
+Apellido: nieto
+-----------------
+Nombre: lucely
+Apellido: piñeros
+-----------------
+Nombre: luisa
+Apellido: garcia
+-----------------

@@ -17,5 +17,3 @@ def sumar_dos ():
     return resultado
 #mostrando el resultado
 print(f'la suma de los numeros es: ', sumar_dos())
-            
-    
